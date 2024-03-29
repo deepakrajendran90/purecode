@@ -1,0 +1,25 @@
+::-webkit-scrollbar {
+  -webkit-appearance: none;
+}
+
+::-webkit-scrollbar:vertical {
+  width: 5px;
+}
+
+::-webkit-scrollbar:horizontal {
+  height: 5px;
+}
+
+.styled-scrollbar::-webkit-scrollbar-track {
+  background-color: transparent; /* Track background color */
+  border-radius: 0.25rem; /* Track border radius */
+}
+.styled-scrollbar::-webkit-scrollbar-thumb {
+  background-color: #93c5fd; /* Thumb color */
+  border-radius: 9999px; /* Thumb border radius */
+}
+
+/* Hover state for thumb */
+.styled-scrollbar::-webkit-scrollbar-thumb:hover {
+  background-color: #6b83eb; /* Thumb color on hover */
+}
